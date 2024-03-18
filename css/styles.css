@@ -43,7 +43,7 @@ section {
 }
 
 img {
-  background-color: white;
+  /* background-color: white; */
   width: 150px;
 }
 
@@ -118,13 +118,26 @@ a {
     box-shadow: none;
   }
 
+  h1 {
+    font-size: 3.5vh;
+  }
+
+  h2 {
+    font-size: 2vh;
+  }
+
   main {
     display: flex;
     flex-direction: column;
     height: 100px;
     align-items: center;
     justify-content: center;
-    padding: 50px 10px 20px;
+    padding: 30px 30px 10px;
+  }
+
+  img {
+    /* background-color: white; */
+    width: 100px;
   }
 
   .recipe_if, .recipe_then {
