@@ -10,7 +10,7 @@ html {
 
 a,
 a :visited {
-  color: white;
+  color: darkorange;
 }
 
 body {
@@ -146,6 +146,11 @@ a {
   footer p {
     padding: 20px 30px;
     /* text-align: justify; */
+  }
+
+  footer > p:last-child {
+    margin: 0 6vh;
+    border-top: 1px solid darkorange;
   }
 
   img {
